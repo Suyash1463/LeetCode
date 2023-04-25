@@ -1,4 +1,4 @@
-Here's a line-by-line explanation of the given code:
+Here's a line-by-line explanation of the code:
 
 ```
 
