@@ -1,14 +1,14 @@
 class Solution {
 public:
     string defangIPaddr(string address) {
-        string defanged = "";
+        stringstream ss;
         for (char c : address) {
             if (c == '.') {
-                defanged += "[.]";
+                ss << "[.]";
             } else {
-                defanged += c;
+                ss << c;
             }
         }
-        return defanged;
+        return ss.str();
     }
 };
